@@ -1,0 +1,66 @@
+ //typography
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&family=Roboto:wght@300;400&family=Rubik&family=Ubuntu:wght@300;400&display=swap');
+
+/*abstracts*/
+@import "./abstracts/variables";
+
+/*bases*/
+
+/*layout*/
+@import "./layout/navbar";
+@import "./layout/web-pages";
+@import "./layout/footer";
+ /*pages*/
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.fondo-principal {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/image-principal.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 4px 5px rgb(184, 184, 184);
+}
+
+.fondo-text {
+    color: black;
+    text-align: center;
+    width: 50%;
+    text-shadow: 10px 10px 10px black;
+}
+
+.fondo-text h1 {
+    text-shadow: 10px 10px 10px white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.fondo-text p {
+    font-size: 25px;
+    text-shadow: 10px 10px 10px white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.second-font {
+    background-image: url(../img/second-image.jpg);
+    height: 140vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 4px 5px black;
+    margin-top: 100px;
+}
