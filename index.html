@@ -22,11 +22,11 @@
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" href="#">Home</a>
-                        <a class="nav-link" href="./pages/web-pages.html">Web Pages</a>
-                        <a class="nav-link" href="./pages/skills.html">Skills</a>
-                        <a class="nav-link" href="./pages/web-pages.html">About Me</a>
-                        <a class="nav-link" href="./pages/web-pages.html">Contact Me</a>
+                        <a class="nav-link" href="#inicio">Home</a>
+                        <a class="nav-link" href="#webPages">Web Pages</a>
+                        <a class="nav-link" href="#skills">Skills</a>
+                        <a class="nav-link" href="#aboutMe">About Me</a>
+                        <a class="nav-link" href="#contactMe">Contact Me</a>
                     </div>
                 </div>
             </div>
@@ -36,170 +36,121 @@
     <main>
         <section class="fondo-principal">
             <div class="fondo-text">
-                <h1>Hi, My name is Maikol Reyes</h1>
-                <p>Soy un Desarrolador Web en constante crecimiento y con experiencia en el mundo de la programacion
+                <h1 class="my">Hi, My name is Maikol Reyes</h1>
+                <p class="my-p">i'm a Front-End developer in constant evolution
+                    whit experience in the world It
                 </p>
             </div>
         </section>
 
-        <div class="text-second mt-5">
-            <h1>Web pages clients</h1>
-            <p>trabajos realizados</p>
+        <div id="webPages" class="text-second">
+            <h2 class="text-pages">Web pages clients</h2>
+
+            <ul class="">
+                <h3 class="titleWeb mt-5 mb-3">Minzke Herramientas</h3>
+                <li class="webPages">
+                    <a target="_blank" href="https://maikolreyes.github.io/Minzke-Ecommerce/">
+                        <img src="./img/loguito.png" alt="" class="minzkePage">
+                    </a>
+                </li>
+                <p class="textWeb mt-3">My first page made by me, is an ecommerce of hand tools and power tools, it has applied technologies
+                    such as Html, Css, Sass, JavaScript, Bootstrap & Node Js, it was my first deliverable project for
+                    receive
+                    my web development certificate, If you want to see it click on the image
+                </p>
+            </ul>
         </div>
 
-        <div class='container mt-5'>
 
-            <ul class="list-works">
-                <li class="item-works">
-                    <a class='normal' href='#'>
-                        <svg viewBox='0 0 80 76' x='0px' y='0px'>
-                            <g>
-                                <path
-                                    d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'>
-                                </path>
-                            </g>
-                        </svg>
-                    </a>
-                    <div class='info'>
-                        <h3>Single-origin coffee whatever</h3>
-                        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut
-                            jean shorts.</p>
-                    </div>
+        <h3 id="skills" class="text-pages">Skills</h3>
+
+        <div class="containerSkills mt-5">
+
+            <div>
+                <h4 class="textHabilities">My Habilities</h4>
+                <p class="parrafoHabilities">the source of my studies come from self-taught courses and learning
+                    constant</p>
+            </div>
+
+            <ul class="listSkills">
+                <li>
+                    <img src="./logos-technology/html.png" alt="" class="logoTech">
                 </li>
-                <li class="item-works">
-                    <a class='normal' href='#'>
-                        <svg viewBox='0 0 80 76' x='0px' y='0px'>
-                            <g>
-                                <path
-                                    d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'>
-                                </path>
-                            </g>
-                        </svg>
-                    </a>
-                    <div class='info'>
-                        <h3>Single-origin coffee whatever</h3>
-                        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut
-                            jean shorts.</p>
-                    </div>
+                <li>
+                    <img src="./logos-technology/css3.png" alt="" class="logoTech">
                 </li>
-                <li class="item-works">
-                    <a class='normal' href='#'>
-                        <svg viewBox='0 0 80 76' x='0px' y='0px'>
-                            <g>
-                                <path
-                                    d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'>
-                                </path>
-                            </g>
-                        </svg>
-                    </a>
-                    <div class='info'>
-                        <h3>Single-origin coffee whatever</h3>
-                        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut
-                            jean shorts.</p>
-                    </div>
+                <li>
+                    <img src="./logos-technology/bootstrap-framework-logo.png" alt="" class="logoTech">
                 </li>
-                <li class="item-works">
-                    <a class='normal' href='#'>
-                        <svg viewBox='0 0 80 76' x='0px' y='0px'>
-                            <g>
-                                <path
-                                    d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'>
-                                </path>
-                            </g>
-                        </svg>
-                    </a>
-                    <div class='info'>
-                        <h3>Single-origin coffee whatever</h3>
-                        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut
-                            jean shorts.</p>
-                    </div>
+                <li>
+                    <img src="./logos-technology/javascript-logo1.png" alt="" class="logoTech">
                 </li>
-                <li class="item-works">
-                    <a class='normal' href='#'>
-                        <svg viewBox='0 0 80 76' x='0px' y='0px'>
-                            <g>
-                                <path
-                                    d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'>
-                                </path>
-                            </g>
-                        </svg>
-                    </a>
-                    <div class='info'>
-                        <h3>Single-origin coffee whatever</h3>
-                        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut
-                            jean shorts.</p>
-                    </div>
+                <li>
+                    <img src="./logos-technology/react.png" alt="" class="logoTech">
                 </li>
-                <li class="item-works">
-                    <a class='normal' href='#'>
-                        <svg viewBox='0 0 80 76' x='0px' y='0px'>
-                            <g>
-                                <path
-                                    d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'>
-                                </path>
-                            </g>
-                        </svg>
-                    </a>
-                    <div class='info'>
-                        <h3>Single-origin coffee whatever</h3>
-                        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut
-                            jean shorts.</p>
-                    </div>
-                </li>
-                <li class="item-works">
-                    <a class='normal' href='#'>
-                        <svg viewBox='0 0 80 76' x='0px' y='0px'>
-                            <g>
-                                <path
-                                    d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'>
-                                </path>
-                            </g>
-                        </svg>
-                    </a>
-                    <div class='info'>
-                        <h3>Single-origin coffee whatever</h3>
-                        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut
-                            jean shorts.</p>
-                    </div>
-                </li>
-                <li class="item-works">
-                    <a class='normal' href='#'>
-                        <svg viewBox='0 0 80 76' x='0px' y='0px'>
-                            <g>
-                                <path
-                                    d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'>
-                                </path>
-                            </g>
-                        </svg>
-                    </a>
-                    <div class='info'>
-                        <h3>Single-origin coffee whatever</h3>
-                        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut
-                            jean shorts.</p>
-                    </div>
-                </li>
-                <li class="item-works">
-                    <a class='normal' href='#'>
-                        <svg viewBox='0 0 80 76' x='0px' y='0px'>
-                            <g>
-                                <path
-                                    d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'>
-                                </path>
-                            </g>
-                        </svg>
-                    </a>
-                    <div class='info'>
-                        <h3>Single-origin coffee whatever</h3>
-                        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut
-                            jean shorts.</p>
-                    </div>
+                <li>
+                    <img src="./logos-technology/node-js.png" alt="" class="logoTech">
                 </li>
             </ul>
+        </div>
+
+        <div class="textSecond mt-5">
+            <h2 id="aboutMe" class="text-pages">About Me</h2>
+
+            <h4>i'm person very organizate and metodics, my pasion for technology</h4>
+
+            <div class="certificatePosition">
+                <img src="./certificate/certificate-desarrolloWeb.png" alt="" class="certificate">
+                <img src="./certificate/certificate-javascript.png" alt="" class="certificate">
+            </div>
+
+        </div>
+
+        <h4 id="contactMe" class="text-pages mt-5">Contact Me</h4>
+        <div class="form-contact">
+
+            <div class="content">
+                <div class="contact-wrapper">
+                    <div class="contact-form">
+                        <form action="#">
+                            <p>
+                                <label for="name">Nombre Completo</label>
+                                <input required type="text" name="nombre-completo" id="name">
+                            </p>
+                            <p>
+                                <label for="email">Correo Electrónico</label>
+                                <input required type="email" name="email" id="email">
+                            </p>
+                            <p>
+                                <label for="telefono">Teléfono</label>
+                                <input required type="tel" name="telefono" id="telefono">
+                            </p>
+                            <p>
+                                <label for="asunto">Asunto</label>
+                                <input required type="text" id="asunto">
+                            </p>
+                            <p class="block">
+                                <label for="mensajes">Mensaje</label>
+                                <textarea required name="mensajes" id="mensajes" cols="50" rows="3"></textarea>
+                            </p>
+                            <p class="block">
+                                <button type="submit">
+                                    Enviar
+                                </button>
+                            </p>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
-        <h4>Contact</h4>
-        <ul class="social-media">
+
+
+
+        <ul class="social-media mt-3">
             <li class="icons">
                 <a class="icons-image" href="#">
                     <i class="fab fa-facebook-f icon"></i></a>

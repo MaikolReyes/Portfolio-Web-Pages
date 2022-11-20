@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&family=Roboto:wght@300;400&family=Rubik&family=Ubuntu:wght@300;400&display=swap");
+/*abstracts*/
+/*bases*/
+/*layout*/
+.navbar {
+  background-color: #cbcbcb;
+  width: 100%;
+}
+
+#navbarNavAltMarkup {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 10px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.navbar-nav * {
+  transition: all 0.35s ease;
+}
+
+.nav-link {
+  position: relative;
+  color: black;
+  font-family: "Roboto Mono", monospace;
+  justify-content: space-around;
+}
+
+.nav-link::before,
+.nav-link::after {
+  content: "";
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+
+.nav-link::before {
+  content: "";
+  right: 0;
+  top: 0;
+  border-top: 3px solid #639ceb;
+  border-right: 3px solid #639ceb;
+  transform: translate(-100%, 50%);
+}
+
+.nav-link:after {
+  content: "";
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid #639ceb;
+  border-left: 3px solid #639ceb;
+  transform: translate(100%, -50%);
+}
+
+.nav-link:hover:before,
+.nav-link:hover:after {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.nav-link:hover {
+  color: #2772dc;
+}
+
+.webPages {
+  display: flex;
+  justify-content: center;
+}
+
+.titleWeb {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 20px;
+  text-shadow: 10px 10px 10px white;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+}
+
+.subImages {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.form-contact {
+  color: white;
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 3em;
+}
+
+.contact-wrapper > * {
+  padding: 4em;
+}
+
+.contact-form {
+  background-color: #222222;
+  font-family: "roboto", sans-serif;
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form .block {
+  grid-column: 1/3;
+}
+
+.contact-form form p {
+  margin: 0;
+  padding: 1em;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: 1px solid #2772dc;
+  color: #fff;
+}
+
+.contact-form form button {
+  background: grey;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+  background: #2772dc;
+  color: #000;
+  outline: none;
+  transition: background-color 1s ease-out;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.icons-image {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 80px;
+  font-size: 35px;
+  margin: 0 10px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #fff;
+  z-index: 1;
+}
+
+.icons-image .icon {
+  position: relative;
+  color: #262626;
+  transition: 0.5s;
+  z-index: 3;
+}
+
+.icons-image:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.icons-image:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.icons-image:hover:before {
+  top: 0;
+}
+
+.icons:nth-child(1) a:before {
+  background: #3b5999;
+}
+
+.icons:nth-child(2) a:before {
+  background: #55acee;
+}
+
+.icons:nth-child(3) a:before {
+  background: #0077b5;
+}
+
+.icons:nth-child(4) a:before {
+  background: #dd4b39;
+}
+
+/*pages*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+.fondo-principal {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/image-principal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 5px 4px 5px rgb(184, 184, 184);
+}
+
+.fondo-text {
+  text-align: center;
+  width: 50%;
+}
+.fondo-text :hover {
+  opacity: 1;
+}
+
+.my {
+  color: black;
+  font-family: "Roboto Mono", monospace;
+  background-color: #2772dc;
+  opacity: 0.8;
+  font-size: 2rem;
+}
+
+.my-p {
+  color: black;
+  font-size: 18px;
+  font-family: "Roboto Mono", monospace;
+  background-color: #2772dc;
+  opacity: 0.8;
+}
+
+.text-pages {
+  color: black;
+  font-size: 30px;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  margin-top: 2rem;
+  box-shadow: 1px 1px 1px rgb(184, 184, 184);
+}
+
+.second-font {
+  background-image: url(../img/second-image.jpg);
+  height: 50vh;
+  width: 50vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 5px 4px 5px black;
+  margin-top: 100px;
+}
+
+.contact {
+  color: black;
+  font-size: 25px;
+  text-shadow: 10px 10px 10px white;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  margin: 0;
+}
+
+.videoPage {
+  width: 100%;
+  height: 350px;
+}
+
+.logoTech {
+  width: 80px;
+  height: 100%;
+}
+.logoTech:hover {
+  opacity: 0.7;
+}
+
+.listSkills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.descriptionSkills {
+  text-align: left;
+  color: #414141;
+  padding-right: 80px;
+  line-height: 40px;
+}
+
+.containerSkills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.certificate {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  width: 300px;
+}
+
+.minzkePage {
+  width: 100%;
+  height: 500px;
+}/*# sourceMappingURL=styles.css.map */
